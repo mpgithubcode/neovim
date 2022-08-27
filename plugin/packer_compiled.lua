@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/mugen/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/mugen/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/home/mugen/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
@@ -178,11 +183,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mugen/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/home/mugen/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -209,10 +209,10 @@ _G.packer_plugins = {
     path = "/home/mugen/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
-  ["telescope.nvim"] = {
+  rnvimr = {
     loaded = true,
-    path = "/home/mugen/.local/share/nvim/site/pack/packer/start/telescope.nvim",
-    url = "https://github.com/nvim-telescope/telescope.nvim"
+    path = "/home/mugen/.local/share/nvim/site/pack/packer/start/rnvimr",
+    url = "https://github.com/kevinhwang91/rnvimr"
   },
   ["toggleterm.nvim"] = {
     loaded = true,
